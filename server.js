@@ -9,10 +9,10 @@ const imagesDir = path.join(__dirname, "images");
 // This is the image array of arrays that you can change.
 const displayMap = [
   ["cat.jpeg", 2],
-  ["dog.jpeg", 2],
-  ["calendar", 2],
-  ["dog.jpeg", 2],
-  ["calendar", 10],
+ // ["dog.jpeg", 2],
+ // ["calendar", 2],
+ // ["dog.jpeg", 2],
+  ["calendar", 10]
 ];
 
 app.use(express.static("public")); // Serve static files from 'public' directory
